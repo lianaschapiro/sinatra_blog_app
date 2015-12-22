@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	height: 75px;
+	background-color: black;
+	color: pink;
+	text-align: center;
+	line-height: 75px;
+}
+
+h2 {
+	padding: 10px;
+	color: red;
+}
+
+footer {
+	height: 60px;
+	height: 60px;
+	background-color: black;
+	color: pink;
+	text-align: center;
+	line-height: 60px;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
