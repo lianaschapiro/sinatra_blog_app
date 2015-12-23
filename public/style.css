@@ -3,12 +3,36 @@
 	padding: 0;
 }
 
+#login {
+	width:500px;
+	height: 500px;
+	margin: 100px auto 0px;
+	display: block;
+	text-align: center;
+}
+
+
 header {
 	height: 75px;
 	background-color: black;
 	color: pink;
 	text-align: center;
-	line-height: 75px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+header h1 {
+	display: inline-block;
+	margin: 20px 0px 0px 110px;
+}
+
+#logout {
+	float: right;
+	padding: 10px;
+	background-color: white;
+	margin: 20px;
+	border-radius: 15px;
 }
 
 h2 {
@@ -26,4 +50,8 @@ footer {
 	position: fixed;
 	width: 100%;
 	bottom: 0;
+}
+
+form {
+	padding: 10px;
 }
